@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let map = new Map();
-	let str = "abcdefab";
+	
 	for(let i=0;i<str.length;i++){
 	    if(map.has(str.charAt(i))==true){
 	        let num = map.get(str.charAt(i));
